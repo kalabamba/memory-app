@@ -1,0 +1,37 @@
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    position: relative;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: filter ease-in 0.1s;
+}
+.card:hover {
+    filter: brightness(95%);
+}
+
+.card .cardFront {
+    position: absolute;
+    transform: rotateY(180deg);
+    transition: all ease-in 0.2s;
+}
+
+.card .cardBack {
+    transform: rotateY(0deg);
+    transition: all ease-in 0.2s;
+}
+
+.flipped .cardFront {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.flipped .cardBack {
+    transform: rotateY(90deg);
+    transition-delay: 0.2s;
+}
