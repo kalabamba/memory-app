@@ -12,7 +12,7 @@ const MemoryCard = ({ card, handleSelected, disabled, flipped }) => {
 	<div className="card">
 		<div className={flipped ? "flipped":""}>
 			<img className='cardFront' src={card.path} alt="" />
-			<img className='cardBack' onClick={ handleClick } src="/img/cover.jpeg" alt="" />
+			<img className='cardBack' onClick={ handleClick } src="img/cover.jpeg" alt="" />
 		</div>
     </div>
   )

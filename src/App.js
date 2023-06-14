@@ -3,12 +3,12 @@ import './App.css';
 import MemoryCard from './components/MemoryCard'
 
 const cardList = [
-{path: '/img/1.jpeg'},
-{path: '/img/2.jpeg'},
-{path: '/img/3.jpeg'},
-{path: '/img/4.jpeg'},
-{path: '/img/5.jpeg'},
-{path: '/img/6.jpeg'},
+{path: 'img/1.jpeg'},
+{path: 'img/2.jpeg'},
+{path: 'img/3.jpeg'},
+{path: 'img/4.jpeg'},
+{path: 'img/5.jpeg'},
+{path: 'img/6.jpeg'},
 ];
 
 function App() {
